@@ -93,7 +93,7 @@ def main() -> None:
         screen.blit(world, (0, 0))
         draw_flashlight_mask(darkness, flash_pos)
         screen.blit(darkness, (0, 0))
-
+        
         pygame.display.flip()
         clock.tick(FPS)
 
